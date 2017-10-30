@@ -7,5 +7,6 @@ phases:
     commands: 
       - "echo Entered the build phase..."
       - "echo Build started on `date`"
-      - "mvn install"
+      #- "mvn install"
+      - 'mvn clean package cobertura:cobertura -Pmetrics'
 version: 0.2
