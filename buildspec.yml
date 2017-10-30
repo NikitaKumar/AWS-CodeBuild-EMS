@@ -2,6 +2,7 @@ artifacts:
   discard-paths: true
   files: 
     - target/*.*
+    - buildreport.txt
 phases: 
   build: 
     commands: 
