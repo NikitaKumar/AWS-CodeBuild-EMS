@@ -2,7 +2,7 @@ artifacts:
   discard-paths: true
   files: 
     - target/*.*
-    - buildreport.txt
+    - target/site/cobertura/coverage.xml
 phases: 
   build: 
     commands: 
