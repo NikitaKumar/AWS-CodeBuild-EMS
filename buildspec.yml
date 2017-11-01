@@ -1,5 +1,5 @@
 artifacts: 
-  discard-paths: true
+  discard-paths: false
   files: 
     - target/*.*
     - target/site/cobertura/coverage.xml
